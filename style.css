@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+.header {
+    background-color: aquamarine;
+    height: 70px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+.menu{
+    background-color: azure;
+    height: 30px;
+    width: 100%;
+    padding-top: 5px;
+    text-align: left;
+}
+.body{
+
+}
