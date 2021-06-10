@@ -16,6 +16,27 @@
     padding-top: 5px;
     text-align: left;
 }
-.body{
-
 }
+.detail A{
+    width: 50%;
+    height: 599px;
+    left: 0;
+    background-color: cadetblue;
+    text-align: left;
+  }
+  .detail B
+  {
+     width: 50%; 
+     height: 599px;
+     right: 0; 
+     background-color: beige;
+     text-align: left;
+  }
+  
+  .footer{
+    background-color: rgba(255, 253, 127, 0.226);
+    height: 90px;
+    width: 100%;
+    padding-top: 5px;
+    text-align: left;
+  }
