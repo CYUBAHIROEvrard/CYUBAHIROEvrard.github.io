@@ -3,7 +3,7 @@
     font-family: sans-serif;
 }
 .header {
-    background-color: aquamarine;
+    
     height: 70px;
     width: 100%;
     padding-top: 20px;
@@ -11,42 +11,74 @@
 }
 
 .button {
-    width: 250px;
-}
+    background-color: #239ccc; 
+    height: 35px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: -30px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+  }
+
 
 .menu {
-    background-color: azure;
+    
     height: 30px;
     width: 100%;
     padding-top: 5px;
     text-align: left;
 }
   
+
 .footer {
     height: 90px;
-    width: 100%;
+    color: rgba(255, 255, 255, 0.856);
+    width:100%;
     padding-top: 5px;
-    border: 5px outset red;
-    background-color: lightblue;    
+    border: 5px outset #0a0a0a27;
+    background-color: #03030365;
+    position:fixed;
+    bottom: 0px;
     text-align: center;
+}
+.image1{
+    width: 200px;
+    height: 300px;
+    background-color: skyblue;
+    margin-top: 25;
+    margin-left: 90px;
+    margin-right: 10px;
+    border-bottom: 5px skyblue;
+    border-left: 5px skyblue;
 }
 
 .body {
     display: flex;
     flex-wrap: wrap;
-    padding-right: 5px;
-    padding-left: 5px;
+    margin-left: 70px;
 }
 
 .detaila {
-    width: 70%;
-    background-color: chocolate;
-    height: 600px;
+    width: 40%;
+    margin-top: 30px;
+    text-align: center;
+    height: 300px;
+    margin-right: 40px;
 }
 
 .detailb {
-    width: 30%;
-    background-color: darkcyan;
-    height: 600px;
+    width: 25%;
+
+    margin-top: 30px;
+    height: 300px;
 }
 
